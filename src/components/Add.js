@@ -18,11 +18,11 @@ function Add({ adds, setUsers }) {
   };
   const submit = (e) => {
     e.preventDefault();
-    fetch("http://localhost:3000/transactions", {
+    fetch("https://json-server-vercel-blush.vercel.app/transactions", {
       method: "POST",
       headers: {
-        "Content-type": "application/json",
-        Accept: "application/json",
+        "Content-Type": "application/json",
+        "Accept": "application/json",
       },
       body: JSON.stringify(added),
     })
@@ -35,6 +35,9 @@ function Add({ adds, setUsers }) {
       category: "",
       amount: "",
     });
+    return(
+      alert("New Transaction Added")
+    )
   };
   return (
     <div>

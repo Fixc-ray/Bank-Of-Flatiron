@@ -104,6 +104,27 @@
       "description": "Shopping",
       "category": "milk, Bread",
       "amount": "150"
+    },
+    {
+      "id": "9537",
+      "date": "2024-08-14",
+      "description": "drinks from Membly's",
+      "category": "drink",
+      "amount": "350"
+    },
+    {
+      "id": "87e8",
+      "date": "2024-08-08",
+      "description": "Paycheck from Oakberry",
+      "category": "Income",
+      "amount": "20000"
+    },
+    {
+      "id": "ca61",
+      "date": "2024-08-08",
+      "description": "Paycheck from Oakberry",
+      "category": "Income",
+      "amount": "4000"
     }
   ]
 }

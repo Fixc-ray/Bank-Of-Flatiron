@@ -5,7 +5,7 @@ import Add from "./Add";
 import React, { useEffect, useState } from "react";
 
 function App() {
-  const url = "http://localhost:3000/transactions";
+  const url = "https://json-server-vercel-blush.vercel.app/transactions";
   const [transactions, setUsers] = useState([]);
   useEffect(() => {
     fetch(url)
