@@ -97,6 +97,13 @@
       "description": "Shopping",
       "category": "Bread",
       "amount": "100"
+    },
+    {
+      "id": "29a6",
+      "date": "2024-08-07",
+      "description": "Shopping",
+      "category": "milk, Bread",
+      "amount": "150"
     }
   ]
 }
