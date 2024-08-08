@@ -36,7 +36,7 @@ function Add({ adds, setUsers }) {
       amount: "",
     });
     return(
-      alert("New Transaction Added")
+      alert("New Transaction Added. Please refresh the page to see your transaction")
     )
   };
   return (
